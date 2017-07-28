@@ -1,0 +1,30 @@
+{
+    "name": "osc.js-examples-udp-ws",
+    "version": "0.1.1",
+    "engines": {
+      "node": "8.2.1"
+    },
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
+    },
+    "description": "Example of how to bi-directionally send OSC messages between a web browser and a UDP socket.",
+    "author": "Gil Fuser over Colin Clark's work",
+    "homepage": "https://github.com/gilfuser/myosc#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gilfuser/myosc.git"
+    },
+    "readmeFilename": "README.md",
+    "bugs": "https://github.com/gilfuser/myosc/issues",
+    "license": "(MIT OR GPL-2.0)",
+    "keywords": [
+        "Open Sound Control",
+        "OSC"
+    ],
+    "dependencies": {
+        "osc": "2.2.0",
+        "ws": "1.1.0"
+    }
+}
